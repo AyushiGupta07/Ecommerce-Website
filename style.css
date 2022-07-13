@@ -5,6 +5,7 @@ body{
     width: 100%;
 
  }  
+
  h1,h2,h3,h4,h5,h6 p{
     margin: 0px;
    
@@ -168,6 +169,8 @@ text-align: center;
 #product{
     /* border: 2px solid black; */
     text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 #product h2, #products p{
     font-size: 35px;
@@ -222,9 +225,6 @@ flex-direction: row;
     font-family: 'Yrsa', serif;
     font-size: 20px;
     font-weight: bold;
-}
-#brand4{
-
 }
 
 #repair{
@@ -674,10 +674,33 @@ border-bottom-right-radius: 0px; */
 #news-letter .news{
     padding: 30px  0px;
 }
+#prodetails{
+    border: 2px solid blue;
+    height: 500px;
+}
 
 
 
 }
+
+
+@media (max-width:540px){
+    #prodetails{
+        height: 700px;
+    }
+
+
+}
+
+@media (max-width:290px){
+    #prodetails{
+        height: 1000px;
+    }
+    #news-letter{
+        height: 500px;
+    }
+}
+    
 
 
 
@@ -804,11 +827,165 @@ padding:10px 30px;
 
 }
 
-element.style {
-}
 #foot {
    
     padding: 50px 30px;
 }
+
+/* single product */
+#prodetails{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* margin-bottom: 40px; */
+    height: 1200px;
+    margin-bottom: 20px;
+}
+.single-pro-image{
+    width: 80%;
+
+}
+.single-pro-details{
+    padding-left: 50px;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    width: 80%;
+    /* text-align: center; */
+
+}
+
+
+}
+/***************************************************************************/
+/* Shop page */
+#shopBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('banner/b1.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    /* margin-bottom: 20px; */
+}
+#shopBanner h1{
+    color: white;
+    font-size: 30px;
+
+}
+#shopBanner p{
+    color: white;
+    font-size: 20px;
+}
+#pagination{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+#pagination a{
+    /* border: 2px solid blue; */
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin: 1px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #088178;
+    text-decoration: none;
+}
+#prodetails{
+    display: flex;
+}
+
+
+#prodetails .single-pro-image{
+    /* border:2px solid blue; */
+    width: 40%;
+    margin:40px 40px 5px 50px;
+}
+#prodetails .small-img-group{
+   /* width:40% ;  */
+   display: flex;
+   flex-direction: row;
+   margin:5px 0px 5px 0px;
+}
+#prodetails .small-img-col{
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    justify-content: space-between;
+     margin-right: 5px;
+   
+    
+}
+.small-img-col{
+    /* flex-basis: 24%; */
+    cursor: pointer;
+}
+
+.single-pro-details{
+    width: 60%;
+    height: 200px;
+    /* border: 2px solid red; */
+    margin: 40px 50px 5px 0px;
+}
+.single-pro-details h6{
+font-size: 20px;
+padding-bottom:10px ;
+margin-bottom:0px;
+margin-top: 10px;
+}
+.single-pro-details h4{
+font-size: 24px;
+padding: 10px 0px 10px 0px;
+}
+.single-pro-details h2{
+    font-size:20px ;
+    padding-bottom: 10px;
+}
+
+.single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.single-pro-details input{
+    width:40px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+   
+
+}
+.single-pro-details button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    border:  1px solid black;
+    margin-bottom:20px ;
+    transition: 0.3s ease;
+}
+
+.single-pro-details button:hover{
+    background-color:#088178;
+    color: white;
+    border:1px solid  transparent;
+}
+
+.single-pro-details span{
+    line-height: 25px;
+    font-size: 18px;
 
 }
