@@ -616,6 +616,47 @@ border-bottom-right-radius: 0px; */
     z-index: -9;
 
 }
+#aboutBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-image: url('banner/b19.jpg'); */
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('about/banner.png');
+}
+#about-head{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 50px 50px 50px;
+    align-items: center;
+}
+#about-head .about-img{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin-right: 40px;
+}
+.about-img img{
+    width: 100%;
+    height: 400px;
+
+
+}
+.about-details{
+    width: 50%;
+  line-height: 20px;
+}
+.about-details h2{
+    font-size: 40px;
+    margin-bottom: 10px; ;
+
+}
+.about-details marquee{
+    background-color: rgb(209, 209, 209);
+
+}
 
 
 
