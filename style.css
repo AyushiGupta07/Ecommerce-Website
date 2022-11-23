@@ -55,7 +55,7 @@ body{
 }
 #banner{
       font-family: 'Baloo Bhai 2', cursive;
-    background-image: url('hero4.png');
+    background-image: url('homeBackground\ Photo.webp');
     /* display: flex; */
     height: 90vh;
     width: 100%;
@@ -825,6 +825,13 @@ width: 40%;
 .people img{
     width: 100px;
     height: auto;
+    object-fit: cover;
+    border-radius: 50px;
+
+}
+#aashi img{
+    width: 100px;
+    height: 200px;
     object-fit: cover;
     border-radius: 50px;
 
