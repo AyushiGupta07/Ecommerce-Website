@@ -1,7 +1,7 @@
 const bar=document.getElementById('bar');
 const close=document.getElementById('close');
 const nav=document.getElementById('navbar');
-const loginBtn=document.getElementById('loginBtn');
+// const loginBtn=document.getElementById('loginBtn');
 
 if(bar){
     bar.addEventListener('click',()=>{
@@ -16,5 +16,5 @@ if(close){
     );
 }
 const signIn=()=>{
-    
+    window.location.assign=("login.html");
 }
