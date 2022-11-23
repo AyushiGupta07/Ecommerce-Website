@@ -15,6 +15,3 @@ if(close){
     }
     );
 }
-const signIn=()=>{
-    window.location.assign=("login.html");
-}
